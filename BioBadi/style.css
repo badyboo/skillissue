@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: Poppins;
+}
+
+html{
+    font-size: 70%;   
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: black;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-style: normal;
+    font-size: 4rem;
+    color: #1DB954;
+    font-weight:800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+logo-hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav a:hover,
+nav a.active{
+    color: #1DB954;
+}
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+
+.home .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home .home-content span{
+    color: #1DB954;
+}
+
+.home .home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-img{
+    border-radius: 50%;
+}
+
+.home-img img{
+    position: relative;
+    height: 50vh;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid #1DB954;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #1DB954;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease-in;
+    color: white;
+}
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.3) translateY(5px);
+    background-color: #1DB954;
+    box-shadow: 0 0 10px #1DB954;
+}
+
+
+.biodata{
+    background-color: #1DB954;
+}
+
+
+.biodata .biodata-nama h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 2.5;
+    text-align: center;
+    color: black;
+    padding-top: 6rem;
+}
+
+.biodata .biodata-nama h3{
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.biodata .biodata-nama h2{
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.biodata .biodata-ttl h3{
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.biodata .biodata-ttl h2{
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.biodata .biodata-alamat h3{
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.biodata .biodata-alamat h2{
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.biodata .biodata-email h3{
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.biodata .biodata-email h2{
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+.vid-bg video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(4px);
+}
+
+.riwayat-pend h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 2.5;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 3rem;
+}
+
+.riwayat-pend-tk h3{
+    font-size: 3rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: #1DB954;
+    text-align: left;
+    padding-top: 4rem;
+}
+
+.riwayat-pend-tk h2{
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: white;
+    text-align: left;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.riwayat-pend-sd h3{
+    font-size: 3rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: #1DB954;
+    text-align: left;
+    padding-top: 4rem;
+}
+
+.riwayat-pend-sd h2{
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: white;
+    text-align: left;
+    padding-top: 3rem;
+    ;
+}
+
+.riwayat-pend-sd h4{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.3;
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 4rem
+}
+
+.riwayat-pend-mts h3{
+    font-size: 3rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: #1DB954;
+    text-align: left;
+    padding-top: 4rem;
+}
+
+.riwayat-pend-mts h2{
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: white;
+    text-align: left;
+    padding-top: 3rem;
+    ;
+}
+
+.riwayat-pend-mts h4{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.3;
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 4rem
+}
+
+.riwayat-pend-smk h3{
+    font-size: 3rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: #1DB954;
+    text-align: left;
+    padding-top: 4rem;
+}
+
+.riwayat-pend-smk h2{
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 1.3;
+    color: white;
+    text-align: left;
+    padding-top: 3rem;
+    ;
+}
+
+.riwayat-pend-smk h4{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.3;
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 4rem
+}
+
+footer{
+    height: 7.3rem;
+    margin-bottom: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
