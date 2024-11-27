@@ -1,1 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline 2px;
+}
+
+.allmother{
+    background-color: white;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    padding-top: 1.5rem;
+    display: flex;
+    column-gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.col1{
+    width: 65%;
+}
+
+.col2{
+    border-left: 1px solid gray;
+    width: 25%;
+}
+
+p{
+    font-family: 'Times New Roman';
+    color: rgb(61, 61, 61);
+}
+
+h1{
+    font-family: Georgia;
+    font-size: 22px;
+}
+
+h4{
+    font-family: calibri;
+    font-weight: 500;
+    color: black;
+}
+
+.hunion{
+    position: sticky;
+    top:0;
+}
+
+.h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    background-color: white;
+}
+
+.logo{
+    color: black;
+    font-family: Croissant one;
+    font-size: 50px;
+    font-weight: 100;
+    padding-right: 1rem;
+}
+
+.h2{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    padding-left: 30rem;
+    padding-right: 27rem;
+    font-family: calibri;
+    border-bottom: black double;
+    background-color: white;
+}
+
+.intro{
+    padding-bottom: 4.5rem;
+    border-bottom: 1px solid black;
+}
+
+.job{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.edu{
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid black;
+}
+
+.hobi{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.mus{
+    padding-top: 2rem;
+    }
+
+.footer{
+    background-color: white;
+    border-top: 1px solid black;
+    padding: 1rem;
+    color: black;
+}        
 
