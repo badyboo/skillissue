@@ -1,104 +1,107 @@
 <html>
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
-    <title>Biodata Ahdan</title>
-    <style>
-        *{
-            padding: 0%;
-            margin: 0%;
-            box-sizing: border-box;
-            text-decoration: none;
-        }
-
-        a{
-            color: black;
-        }
-
-        a:hover{
-            text-decoration: underline;
-        }
-        
-        body{
-            padding-left: 3%;
-            padding-right: 3%;
-        }
-
-        h1{
-            font-size: 2rem;
-        }
-
-        h4{
-            font-family: calibri;
-            font-weight: 100;
-            color: black;
-        }
-
-        .h1{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-left: 2rem;
-            padding-right: 2.5rem;
-            border-bottom: 1px solid black;
-        }
-
-        .logo{
-            color: black;
-            font-family: allison;
-            font-size: 60px;
-            font-weight: 100;
-            padding-right: 5.5rem;
-        }
-
-        .h2{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.5rem;
-            padding-left: 28.4rem;
-            padding-right: 30rem;
-            font-family: calibri;
-            border-bottom: black double;
-        }
-
-        .intro{
-            padding-top: 1rem;
-            font-family: calibri;
-            padding-bottom: 2rem;
-            border-bottom: 2px solid gray;
-        }
-
-    </style>
+    <link rel="stylesheet" href="config.css">
+    <title>The Muhadan Times</title>
 </head>
 <body>
+<div class="allmother">
+    <div class="hunion">
     <div class="h1">
         <h4>Friday,November 22,2024 </h4>
-        <h1 class="logo">The AhdanTimes</h1>
+        <h1 class="logo">TheMuhadanTimes</h1>
         <h4> Nowadays Info</h4>
     </div>
     <div class="h2">
          <a href="../index.html">Home</a>
-         <a href="#">Introduction</a>
-         <a href="#">Job</a>
-         <a href="#">History</a>
-         <a href="#">Hobby</a>
+         <a href="#intro">Introduction</a>
+         <a href="#job">Job</a>
+         <a href="#edu">Education</a>
+         <a href="#hobi">Hobby</a>
     </div>
-    <section class="intro">
-        <p> 
-            <img src="fokom.jpeg" height="215rem">
-            <h1>Muhammad Ahdan Dawwas Effendi</h1><br> 
-            <table style="width: 15rem;">
-            <tr><td><b>Age</b></td><td>21</td></tr>
-            <tr><td><b>Born</b></td><td>October 4th,2003</td></tr>
-            <tr><td><b>Nationality</b></td><td>Indonesia</td></tr>            
-            </table><br>
-            Dia adalah seorang mahasiswa Universitas Indraprasta yang mengambil<br>
-            program studi Teknik Informatika, Ketertarikannya pada teknologi komputer<br>
-            membuatnya tertarik untuk mendalami keilmuan komputer, Ketertarikannya<br> 
-            pada teknologi komputer berawal dari kegemarannya bermain video game.
-        </p>
-    </section>
+    </div>
+       <div class="container">
+        <div class="col1">
+            <section class="intro" id="intro">
+            <img src="fokom.jpeg" height="320rem" align="right">
+            <h1>Who Is The Person Responsible of The Making of this Website? </h1><br>
+            <p>
+                Dia adalah, Muhammad Ahdan Dawwas Effendi
+                <table style="width: 15rem; font-family: 'Times New Roman'; color: rgb(61, 61, 61);">
+                    <tr><td><b>Age</b></td><td>21</td></tr>
+                    <tr><td><b>Born</b></td><td>October 4th,2003</td></tr>
+                    <tr><td><b>Nationality</b></td><td>Indonesia</td></tr>
+                    </table><br>
+                    Seorang mahasiswa Universitas Indraprasta yang <br> 
+                    mengambil program studi Teknik Informatika,<br> 
+                    Ketertarikannya pada teknologi komputer membuatnya<br> 
+                    tertarik untuk mendalami keilmuan komputer, Ketertari-<br>
+                    kannya pada teknologi komputer berawal dari<br> 
+                    kegemarannya bermain video game.
+            </p>
+            </section>
+            <section class="job" id="job">
+            <h1>What Does He Currently do for Living?</h1><br>
+            <div class="layout" style="display: flex; column-gap: 1rem;">
+            <p>
+                Dia bisa dibilang tidak bekerja untuk saat ini tapi dia membantu usaha
+                keluarganya,yang tidak memakan waktu begitu banyak, sehingga kebanyakan 
+                waktunya digunakan untuk melakukan hobinya dan kadang-kadang digunakan 
+                untuk belajar seperti saat belajar membuat website ini.
+            </p>
+            <p>
+                Walau begitu dia tetap mempunyai cita-cita untuk menjadi seorang IT Support
+                atau Web Developer,atau memiliki usaha sendiri yaitu usaha servis komputer
+                dia juga berkeinginan untuk bekerja diluar negeri di negara-negara tetangga seperti
+                Malaysia atau Australia.
+            </p>        
+            </section>
+            <section class="edu" id="edu">
+            <img src="temlen.jpg" height="320rem" align="right">
+            <h1>Education History Of Ahdan</h1><br>
+            <p>
+                <b>Taman Kanak-kanak:</b><br>
+                TK Islam Babussalam<br><br>
+
+                <b>Sekolah Dasar:</b><br>
+                Sekolah Dasar Negeri Ciracas 05 Pagi<br><br>
+
+                <b>Sekolah Menengah Pertama:</b><br>
+                SMP Negeri 188 Jakarta<br><br>
+
+                <b>Sekolah Menengah Atas/Kejuruan:</b><br>
+                SMK Negeri 22 Jakarta<br><br>
+
+                <b>Perguruan Tinggi:</b><br>
+                Universitas Indraprasta PGRI
+            </p>
+            </section>
+            <section class="hobi" id="hobi">
+            <h1>This Is What Ahdan Like To Do As a Hobby</h1><br>
+            <div class="layout" style="display: flex; column-gap: 1rem;">
+            <p>
+                Seperti Laki-laki pada umumnya Ahdan menyukai Motorsport,Video Game,Crafting
+                dan Musik, Motorsport seperti Formula 1, Rally,dan Motogp adalah beberapa motorsport
+                yang paling sering dia tonton,Sementara untuk video game dia menyukai game-game RPG single player
+                dengan cerita<p> yang menarik, Crafting atau Keterampilan tangan dia suka merakit Lego, Gundam, atau
+                memperbaiki barang elektronik, Musik, kegemarannya akan musik entah muncul darimana,sedangkan band-band atau penyanyi 
+                yang suka ia dengarkan seperti Gun & Roses,Greenday, Nirvana, BeachBoys, The Beatles, Abba, Dll, berikut kita coba dengarkan
+                salah satu lagu favoritnya. 
+            </p>
+            </div>
+            <div class="mus" align="center">
+                <p>Dancing Queen - ABBA</p><br>
+            <audio controls="controls" class="music">
+                <source src="ADQ.mp3" type="audio/mp3"/>
+            </audio>
+            </div>
+            </section>
+       </div>
+       <div class="col2">
+       </div> 
+       </div>
+       <div class="footer" align="center">
+        <p>&#169;2024 TheMuhadanTimes.</p>
+       </div>
+</div> 
 </body>
 </html>
