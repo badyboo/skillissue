@@ -611,3 +611,13 @@ footer {
   color: #3EB489;
   padding-inline: 2rem;
 }
+
+tr:hover {
+  color: #3EB489;
+  background-color: #0D1310;
+}
+
+.table2 tr:hover {
+  background-color: #3EB489;
+  color: #0D1310;
+}
