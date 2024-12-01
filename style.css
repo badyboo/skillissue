@@ -88,6 +88,8 @@ nav a.active{
 
 .landing{
     min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .judul h1{
@@ -557,7 +559,7 @@ nav a.active{
 }
 
 footer {
-  height: 9.3rem;
+  height: 7.8rem;
   margin-bottom: 0px;
   top: 0;
   left: 0;
@@ -568,4 +570,44 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+}
+
+.schedule {
+  background-color: #EEE7DC;
+  display: flex;
+  justify-content: center;
+  color: #0D1310;
+  padding: 20px;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.schedule h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  padding-top: 6rem;
+}
+
+.schedule h3 {
+  padding-top: 3rem;
+}
+
+.schedule th {
+  color: #0D1310;
+  background-color: #3EB489;
+  padding-inline: 2rem;
+}
+
+.schedule table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table2 th {
+  background-color: #0D1310;
+  color: #3EB489;
+  padding-inline: 2rem;
 }
